@@ -1,0 +1,60 @@
+body{
+    
+    background-image: url(images/55.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-x ;
+    background-attachment: fixed;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 242, 4);
+  }
+  
+  h1{
+    font-size: 70px;
+    text-align: center;
+    line-height: 1em;
+    font-style: oblique;
+    letter-spacing: 0.05cm;
+  }
+
+  h1 img{
+top: 20px;
+position: relative;
+  }
+
+  h2{
+    font-size: 60px;
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 0.05cm;
+    
+    
+  }
+ 
+  img.imagefooter{ 
+    width: 25%;
+    height: auto;
+    float: left;
+    aspect-ratio: 1 / 2;
+    object-fit: cover;
+    margin: 20px 0;
+  }
+  
+  
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social-link{
+    color: rgb(232, 247, 247);
+    line-height: 2em;
+    font-size: 30px;
+  }
