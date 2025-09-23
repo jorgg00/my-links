@@ -35,6 +35,12 @@ position: relative;
     
     
   }
+
+  h2 img{
+top: 10px;
+position: relative;
+
+  }
  
   img.imagefooter{ 
     width: 25%;
