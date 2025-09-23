@@ -9,7 +9,7 @@ body{
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: rgb(255, 242, 4);
   }
@@ -28,7 +28,7 @@ position: relative;
   }
 
   h2{
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     font-style: oblique;
     letter-spacing: 0.05cm;
@@ -48,7 +48,7 @@ position: relative;
   
   
   ul{
-    margin: 0;
+    margin: 50px;
     padding: 0;
     list-style: none;
   }
@@ -59,6 +59,15 @@ position: relative;
     font-size: 30px;
   }
   
+.inicio{
+color: rgb(255, 242, 4);
+font-size: 30px;
+margin: 50px;
+
+
+}
+
+
   footer{
-margin: 100px;
+margin: 80px;
   }
