@@ -43,7 +43,12 @@ top: 10px;
 position: relative;
 
   }
- 
+ img.jorgfoto{
+  width: 20%;
+  height: auto;
+  
+ }
+
   img.imagefooter{ 
     width: 25%;
     height: auto;
