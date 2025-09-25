@@ -92,16 +92,36 @@ font-style: oblique;
 
 }
 
-.texto-interactivo{
-  margin: 20px 0; 
-  cursor: pointer;
-  transition: color 0.3s ease-in-out;
+.texto-interactivo {
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .texto-interactivo:hover {
-  /* Nuevo color al pasar el mouse */
-  color: rgb(232, 247, 247); 
+  /* 1. Aumenta el tamaño */
+  transform: scale(1.09);
+  text-shadow: 0px 0px 8px rgba(255, 242, 4, 0.7); 
 }
+
+.texto-jorg {
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.texto-jorg:hover {
+  /* 1. Aumenta el tamaño */
+  transform: scale(1.5);
+  text-shadow: 0px 0px 10px rgba(255, 242, 4, 0.7); 
+}
+
+.texto-links {
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.texto-links:hover {
+  /* 1. Aumenta el tamaño */
+  transform: scale(1.001);
+  text-shadow: 0px 0px 8px rgba(255, 242, 4, 0.7); 
+}
+
 
   footer{
 margin: 50px;
