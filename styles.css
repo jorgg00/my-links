@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-repeat:repeat-x ;
     background-attachment: fixed;
+    
 
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
@@ -66,14 +67,27 @@ position: relative;
     color: rgb(232, 247, 247);
     line-height: 2em;
     font-size: 30px;
+    padding: 5px 10px; 
+    transition: 0.3s;
+    padding: 5px 10px;
+    
   }
   
+  .social-link:hover {
+    background-color: rgb(255, 242, 4); 
+    color: black; 
+  }
+
 .inicio{
 color: rgb(255, 242, 4);
 font-size: 30px;
 margin: 50px;
 font-style: oblique;
 
+}
+.inicio:hover {
+  background-color: rgb(255, 255, 252); 
+  color: rgb(0, 0, 0); 
 
 }
 
