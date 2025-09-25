@@ -27,6 +27,7 @@ body{
 top: 20px;
 position: relative;
   }
+  
 
   h2{
     font-size: 70px;
@@ -91,6 +92,16 @@ font-style: oblique;
 
 }
 
+.texto-interactivo{
+  margin: 20px 0; 
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.texto-interactivo:hover {
+  /* Nuevo color al pasar el mouse */
+  color: rgb(232, 247, 247); 
+}
 
   footer{
 margin: 50px;
